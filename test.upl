@@ -1,0 +1,13 @@
+# Hello, World! This is a comment!
+
+var test = "Hello, World!"
+var num = 5
+
+!println("This is UPL!")
+!println(test)
+!print("{num} is ")
+!println(num)
+
+if (num > 6) {
+	!println("Test Completed")
+}
