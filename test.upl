@@ -3,8 +3,12 @@
 var test = "Hello, World!"
 var num = 5
 
+function.create helloWorld() {
+	!println(test)
+}
+
 !println("This is UPL!")
-!println(test)
+helloWorld()
 !print("{num} is ")
 !println(num)
 
